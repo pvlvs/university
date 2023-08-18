@@ -1,0 +1,29 @@
+@import "../../../../../shared/variables";
+
+h3 {
+  font-weight: bold;
+  font-size: $fontSizeXXL;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0000000a;
+}
+
+.headline {
+  width: 100%;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+
+  .back-btn {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

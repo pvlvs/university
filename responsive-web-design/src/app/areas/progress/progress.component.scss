@@ -1,0 +1,105 @@
+@import "../../../shared/variables";
+
+section {
+  height: 100vh;
+}
+
+h2 {
+  animation: appear 0.5s ease-in-out;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 1.6;
+  animation: appear 0.5s ease-in-out 0.2s;
+  animation-fill-mode: both;
+}
+
+.background {
+  transform: scaleX(-1);
+  background-image: url(../../../assets/media/progress.jpg);
+}
+
+.container {
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+
+  .content {
+    width: 50%;
+    max-width: 520px;
+    position: absolute;
+    top: 13%;
+    left: 50px;
+    text-align: left;
+  }
+}
+
+.progress {
+  display: flex;
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  span {
+    width: 20%;
+    font-size: $fontSizeS;
+  }
+}
+
+.line {
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  bottom: calc(15% - 30px);
+  width: 80%;
+  margin-left: 10%;
+}
+
+.dots-container {
+  width: 100%;
+  position: absolute;
+  bottom: calc(15% - 15px);
+
+  .dots {
+    display: flex;
+    text-align: left;
+  }
+}
+
+.dots {
+  div {
+    position: relative;
+    width: 20%;
+  }
+
+  div:before {
+    position: absolute;
+    top: 9px;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    left: 50%;
+    margin-left: -6.5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .progress,
+  .line,
+  .dots-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .container {
+    .content {
+      width: calc(100% - 100px);
+    }
+  }
+}

@@ -1,0 +1,42 @@
+* {
+  color: #000;
+}
+
+section {
+  box-sizing: border-box;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #00000080;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 75%;
+  max-width: 34.5rem;
+  max-height: 795px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    max-width: unset;
+    max-height: unset;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    border-radius: 0;
+  }
+}

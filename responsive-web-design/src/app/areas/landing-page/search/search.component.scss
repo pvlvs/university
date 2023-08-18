@@ -1,0 +1,80 @@
+@import "../../../../shared/variables";
+
+.search {
+  width: 650px;
+  height: 56px;
+  margin-top: 16px;
+  border-radius: 50rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+label {
+  width: 100%;
+  padding: 16px 56px;
+  cursor: text;
+}
+
+input {
+  width: 100%;
+  border: none;
+  font-size: $fontSizeM;
+}
+input:focus {
+  outline: none;
+}
+
+.search-btn,
+.cancel-btn {
+  cursor: pointer;
+}
+
+.search-btn {
+  margin-right: 5px;
+  padding: 9px 24px;
+  background-color: #262626;
+  color: #fff;
+  font-size: $fontSizeXXL;
+  border-radius: 50rem;
+
+  svg {
+    display: none;
+  }
+}
+
+.cancel-btn {
+  margin-right: 20px;
+}
+
+.location-icon {
+  position: absolute;
+  left: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  input {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .search {
+    width: unset;
+  }
+
+  .search-btn {
+    padding: 13px;
+
+    svg {
+      display: block;
+    }
+
+    span {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../../shared/variables";
+
+button {
+  width: 100%;
+  padding: 9px 24px;
+  font-size: $fontSizeXL;
+  font-weight: bold;
+  border-radius: 50rem;
+  background-color: #efedea;
+  color: #8c999b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+}

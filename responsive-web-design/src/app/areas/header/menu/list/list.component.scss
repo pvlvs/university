@@ -1,0 +1,63 @@
+@import "../../../../../shared/variables";
+
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+a:hover {
+  background-color: #f5f5f5;
+}
+
+.headline {
+  width: 100%;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-weight: bold;
+    font-size: $fontSizeXXL;
+  }
+}
+
+.button-container {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 16px;
+
+  button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 50rem;
+    font-size: $fontSizeL;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
+  button:first-child {
+    background-color: #ebe9e8;
+    color: #242e30;
+  }
+
+  button:not(:first-child) {
+    background-color: #000;
+    color: #fff;
+  }
+}

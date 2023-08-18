@@ -1,0 +1,83 @@
+@import "../../../../../shared/variables";
+
+button {
+  cursor: pointer;
+}
+
+.socials {
+  width: 100%;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  position: relative;
+  border-bottom: 1px solid #00000014;
+
+  .or {
+    padding: 0 16px;
+    font-size: $fontSizeM;
+    line-height: 28px;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+  }
+}
+
+form {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+
+  app-input {
+    margin-top: 16px;
+  }
+}
+
+.checkbox {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 8px;
+}
+
+.checkbox:hover {
+  svg {
+    background-color: #0000000a;
+  }
+}
+
+.sign-in {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding: 9px 24px;
+  font-size: $fontSizeXL;
+  font-weight: bold;
+  border-radius: 50rem;
+  background-color: #000;
+  color: #fff;
+
+  &.disabled {
+    opacity: 0.25;
+    cursor: default;
+  }
+}
+
+.create-account {
+  margin-top: 16px;
+  font-size: $fontSizeS;
+  font-weight: bold;
+
+  span {
+    text-decoration: underline;
+  }
+}
+
+.create-account:hover {
+  span {
+    text-decoration: none;
+  }
+}

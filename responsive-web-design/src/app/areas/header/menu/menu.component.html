@@ -1,0 +1,24 @@
+<section (click)="close.emit()">
+  <div class="container" (click)="stopPropagation($event)">
+    <app-list
+      (close)="close.emit()"
+      (changeComponent)="changeOrCloseComponent($event)"
+      *ngIf="activeComponent === 'list'"
+    ></app-list>
+
+    <app-password
+      *ngIf="activeComponent === 'password'"
+      (changeComponent)="changeOrCloseComponent('sign-in')"
+    ></app-password>
+
+    <app-sign-in
+      *ngIf="activeComponent === 'sign-in'"
+      (changeComponent)="changeOrCloseComponent($event)"
+    ></app-sign-in>
+
+    <app-create-account
+      *ngIf="activeComponent === 'create-account'"
+      (changeComponent)="changeOrCloseComponent($event)"
+    ></app-create-account>
+  </div>
+</section>

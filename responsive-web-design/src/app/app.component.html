@@ -1,0 +1,12 @@
+<main [class.blocked]="blockPage">
+  <app-header (blockPage)="blockPage = $event"></app-header>
+  <app-landing-page></app-landing-page>
+
+  <app-stats></app-stats>
+  <app-progress *ngIf="!blockPage"></app-progress>
+  <app-counter></app-counter>
+  <app-image-text></app-image-text>
+  <app-product-presentation></app-product-presentation>
+  <app-slider></app-slider>
+  <app-footer></app-footer>
+</main>

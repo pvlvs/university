@@ -1,0 +1,64 @@
+@import "../../../shared/variables";
+
+section {
+  margin: 75px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  min-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1em;
+}
+
+.value {
+  font-size: 140px;
+  line-height: 140px;
+}
+
+.label {
+  font-size: $fontSizeXL;
+}
+
+@media screen and (max-width: 1400px) {
+  section {
+    column-gap: 64px;
+  }
+  .counter {
+    min-width: unset;
+  }
+
+  .value {
+    font-size: $fontSizeXXXL;
+    line-height: $fontSizeXXXL;
+  }
+
+  .label {
+    font-size: $fontSizeXS;
+    line-height: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  section {
+    padding: 0 16px;
+    column-gap: 16px;
+  }
+
+  .value {
+    font-size: 48px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .value {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

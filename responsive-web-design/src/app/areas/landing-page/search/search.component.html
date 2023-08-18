@@ -1,0 +1,52 @@
+<div class="search">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="24px"
+    width="24px"
+    viewBox="0 0 24 24"
+    fill="#3c4c4f"
+    class="location-icon"
+  >
+    <path d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M12 12c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6-1.8C18 6.57 15.35 4 12 4s-6 2.57-6 6.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14zM12 2c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C4 5.22 7.8 2 12 2z"
+    />
+  </svg>
+
+  <label for="input">
+    <input
+      type="text"
+      id="input"
+      placeholder="Adress, i.e. Robert-Gerwig-Platz 1"
+      (focus)="onFocus()"
+      (blur)="onBlur()"
+      [formControl]="control"
+      #input
+    />
+  </label>
+
+  <button *ngIf="isTyping" class="cancel-btn" (click)="clear()">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="24px"
+      width="24px"
+      viewBox="0 0 24 24"
+      fill="#3c4c4f"
+    >
+      <path d="M0 0h24v24H0V0z" fill="none" />
+      <path
+        d="M14.59 8L12 10.59 9.41 8 8 9.41 10.59 12 8 14.59 9.41 16 12 13.41 14.59 16 16 14.59 13.41 12 16 9.41 14.59 8zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+      />
+    </svg>
+  </button>
+  <button *ngIf="!isSearching" class="search-btn">
+    <svg viewBox="0 0 16 16" width="24px" height="24px">
+      <path
+        d="M14.125 13.162L11.15 10.18a5.049 5.049 0 10-.936.936l2.948 3.01.963-.963zm-7-2.318a3.718 3.718 0 113.719-3.719 3.728 3.728 0 01-3.72 3.719z"
+        fill="#fff"
+      ></path>
+    </svg>
+
+    <span> Search </span>
+  </button>
+</div>

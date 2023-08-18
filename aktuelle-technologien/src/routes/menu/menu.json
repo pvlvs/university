@@ -1,0 +1,644 @@
+[
+  {
+    "title": "Getränke",
+    "items": [
+      {
+        "name": "Aqua Morelli",
+        "price": "6.50",
+        "info": "0,75l (Sprudel oder Naturell)",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Aqua Morelli",
+        "price": "2.70",
+        "info": "0,25l (Sprudel oder Naturell)",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Coca Colo, Cola Zero, Fanta, Mezzo Mix",
+        "price": "3.70",
+        "info": "0,33l",
+        "filter": ["Alcohol free", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Tonic Water Thomas Henry",
+        "price": "2.70",
+        "info": "0,2l",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Ginger Ale",
+        "price": "2.70",
+        "info": "Thomas Henry 0,2l",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Saft",
+        "price": "4.90",
+        "info": "0,5l (Apfel trüb, Mango, Johannisbeere, Lychee)",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Saft",
+        "price": "2.70",
+        "info": "0,25l (Apfel trüb, Mango, Johannisbeere, Lychee)",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Schorle",
+        "price": "4.50",
+        "info": "0,5l (Apfel trüb, Mango, Johannisbeere, Lychee)",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Schorle",
+        "price": "2.50",
+        "info": "0,25l (Apfel trüb, Mango, Johannisbeere, Lychee)",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Bier",
+    "items": [
+      {
+        "name": "Fürstenberg vom Fass | Radler",
+        "price": "3.50",
+        "info": "0,33l",
+        "filter": ["Alcohol", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Fürstenberg vom Fass | Radler",
+        "price": "4.50",
+        "info": "0,5l",
+        "filter": ["Alcohol", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Paulaner Hefeweizen",
+        "price": "4.20",
+        "info": "0,5l",
+        "filter": ["Alcohol", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Paulaner Hefeweizen alkoholfrei",
+        "price": "4.20",
+        "info": "0,5l",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Hauslimonaden",
+    "items": [
+      {
+        "name": "LY-LY–LYCHEE – LIMONADE",
+        "price": "6.50",
+        "info": "Frische Limette, Lychee, Soda, Grenadine Sirup",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "GINGER–MINT – LIMONADE",
+        "price": "6.50",
+        "info": "Frische Limette, Ginger Beer, Minze, Soda",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "PINK–BERRY – LIMONADE",
+        "price": "6.50",
+        "info": "Frische Limette, Wildberry, Soda, Früchte",
+        "filter": ["Alcohol free", "Cold", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Aperitif",
+    "items": [
+      {
+        "name": "Lillet Berry",
+        "price": "6.50",
+        "info": "(Lillet Blanc, Wildberry, Minze) 0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Lillet Tonic",
+        "price": "6.50",
+        "info": "(Lillet Blanc, Tonic-Water, Minze) 0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Hugo",
+        "price": "6.50",
+        "info": "(Prosecco, Holundersirup, Limette, Minze) 0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Aperol Spritz",
+        "price": "6.50",
+        "info": "(Aperol, Prosecco, Orange) 0,75l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Scavy & Ray Prosecco",
+        "price": "6.50",
+        "info": "0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Scavy & Ray Prosecco",
+        "price": "23",
+        "info": "0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Weisswein",
+    "items": [
+      {
+        "name": "Rießling",
+        "price": "6.50",
+        "info": "(halbtrocken) 0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Rießling",
+        "price": "23",
+        "info": "(halbtrocken) 0,75l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Grauburgunder",
+        "price": "6.50",
+        "info": "(trocken) 0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Grauburgunder",
+        "price": "22",
+        "info": "(trocken) 0,75l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Sauvignon Blanc",
+        "price": "6.50",
+        "info": "(trocken) 0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Sauvignon Blanc",
+        "price": "23",
+        "info": "(trocken) 0,75",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Rotwein",
+    "items": [
+      {
+        "name": "Primitivo",
+        "price": "6.50",
+        "info": "0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Primitivo",
+        "price": "23",
+        "info": "0,75l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Sauvignon",
+        "price": "6.50",
+        "info": "0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Sauvignon",
+        "price": "22",
+        "info": "0,2l0,75l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Rosewein",
+    "items": [
+      {
+        "name": "Rose",
+        "price": "6.50",
+        "info": "0,2l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Rose",
+        "price": "23",
+        "info": "0,75l",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Cocktails",
+    "items": [
+      {
+        "name": "Kyoto",
+        "price": "10.50",
+        "info": "(Roku Gin, Limetten, Yuzu, Ginger Ale)",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Nagoya",
+        "price": "10.50",
+        "info": "(Japanese Vodka, Limetten, Beeren, Wildberry)",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Yoake Souls",
+        "price": "10.50",
+        "info": "(Roku Gin, Tonic, Rosmarin, Limetten)",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Osaka",
+        "price": "10.50",
+        "info": "(Whisky, Karamel, Yuzu, Limetten)",
+        "filter": ["Alcohol", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Hot Drinks",
+    "items": [
+      {
+        "name": "Kaffee",
+        "price": "2.60",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": ["(7) koffeinhaltig"]
+      },
+      {
+        "name": "Espresso",
+        "price": "2.00",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": [],
+        "additives": ["(7) koffeinhaltig"]
+      },
+      {
+        "name": "Cappuccino",
+        "price": "3.20",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": [],
+        "additives": ["(7) koffeinhaltig"]
+      },
+      {
+        "name": "Latte Macchiato",
+        "price": "3.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": [],
+        "additives": ["(7) koffeinhaltig"]
+      },
+      {
+        "name": "Grüner Tee / Jasmin Tee",
+        "price": "2.90",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian", "Vegan"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Ingwer Tee",
+        "price": "3.50",
+        "info": "mit Orange und Honig",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Zitronengras Tee",
+        "price": "3.50",
+        "info": "mit Limette und Honig",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Frischer Minz-Ingwer Tee",
+        "price": "3.50",
+        "info": "mit Limette, Ingwer und Honig",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "SAKE",
+        "price": "6.90",
+        "info": "(warm oder kalt) 0,2l",
+        "filter": ["Alcohol free", "Warm", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Vorspeisen",
+    "items": [
+      {
+        "name": "Traditionelle Sommerrollen",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian", "Vegan"],
+        "allergens": ["(f) Sesam", "(h) Erdnüsse"],
+        "additives": []
+      },
+      {
+        "name": "Edamame",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian", "Vegan"],
+        "allergens": ["(m) Sojabohnen"],
+        "additives": []
+      },
+      {
+        "name": "Vietnamesiche Frühlingsrolle",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm"],
+        "allergens": [
+          "(a) Eier",
+          "(b) Fisch",
+          "(c) Krustentiere",
+          "(m) Sojabohnen"
+        ],
+        "additives": []
+      },
+      {
+        "name": "Ha Cao",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm"],
+        "allergens": ["(b) Fisch", "(c) Krustentiere"],
+        "additives": []
+      },
+      {
+        "name": "Crispy Tiger",
+        "price": "7.20",
+        "info": "",
+        "filter": ["Alcohol free", "Warm"],
+        "allergens": [
+          "(b) Fisch",
+          "(f) Sesam",
+          "(i) Lupine",
+          "(n) Weichtiere",
+          "(m) Sojabohnen"
+        ],
+        "additives": ["8"]
+      },
+      {
+        "name": "Salmon Tatar",
+        "price": "9.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Fish"],
+        "allergens": ["(b) Fisch", "(f) Sesam", "(i) Lupine", "(m) Sojabohnen"],
+        "additives": ["(8) Geschmacksverstärker"]
+      },
+      {
+        "name": "Sate-Spieße",
+        "price": "7.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm"],
+        "allergens": [],
+        "additives": ["(8) Geschmacksverstärker"]
+      },
+      {
+        "name": "Gyoza",
+        "price": "7.20",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Seetangsalat",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": ["(f) Sesam", "(m) Sojabohnen", "(i) Lupine"],
+        "additives": ["(3) chinhaltig", "(8) Geschmacksverstärker"]
+      },
+      {
+        "name": "Süßkartoffelpommes",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Vegetarian"],
+        "allergens": ["(a) Eier", "(i) Lupine", "(d) Milch"],
+        "additives": ["(8) Geschmacksverstärker"]
+      },
+      {
+        "name": "Vorspeisen-Menu",
+        "price": "15.90",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Cold", "Fish"],
+        "allergens": [
+          "(a) Eier",
+          "(b) Fisch",
+          "(c) Krustentiere",
+          "(f) Sesam",
+          "(h) Erdnüsse",
+          "(i) Lupine",
+          "(m) Sojabohnen"
+        ],
+        "additives": []
+      }
+    ]
+  },
+  {
+    "title": "Für die Kleinen",
+    "items": [
+      {
+        "name": "Mrs. Chicken",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Meat"],
+        "allergens": ["(f) Sesam", "(i) Lupine", "(m) Sojabohnen"],
+        "additives": []
+      },
+      {
+        "name": "Mr. Shrimp",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Fish"],
+        "allergens": [
+          "(b) Fisch",
+          "(f) Sesam",
+          "(i) Lupine",
+          "(m) Sojabohnen",
+          "(n) Weichtiere"
+        ],
+        "additives": ["(8) Geschmacksverstärker"]
+      }
+    ]
+  },
+  {
+    "title": "Hauptspeisen",
+    "items": [
+      {
+        "name": "Curry King",
+        "price": "13.90",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Meat"],
+        "allergens": ["(d) Milch", "(h) Erdnüsse"],
+        "additives": ["(8) Geschmacksverstärker"]
+      },
+      {
+        "name": "Yoake Special",
+        "price": "17.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Meat"],
+        "allergens": ["(d) Milch", "(h) Erdnüsse"],
+        "additives": ["(8) Geschmacksverstärker"]
+      },
+      {
+        "name": "Lovely Duck",
+        "price": "20.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Meat"],
+        "allergens": ["(f) Sesam", "(i) Lupine", "(m) Sojabohnen"],
+        "additives": ["(8) Geschmacksverstärker"]
+      },
+      {
+        "name": "Spargel-Lachs-Steak",
+        "price": "22.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Meat", "Fish"],
+        "allergens": ["(i) Lupine", "(m) Sojabohnen", "(n) Weichtiere"],
+        "additives": []
+      },
+      {
+        "name": "TUNA-Steak",
+        "price": "24.20",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Meat", "Fish"],
+        "allergens": ["(b) Fisch", "(f) Sesam"],
+        "additives": ["(1) Farbstoffe", "(8) Geschmacksverstärker"]
+      },
+      {
+        "name": "Pho Ha Noi",
+        "price": "12.50",
+        "info": "",
+        "filter": ["Alcohol free", "Warm", "Meat"],
+        "allergens": ["(m) Sojabohnen"],
+        "additives": ["(8) Geschmacksverstärker"]
+      }
+    ]
+  },
+  {
+    "title": "Sweet Time",
+    "items": [
+      {
+        "name": "Ginger-Matcha-Love",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Cold"],
+        "allergens": ["(d) Milch"],
+        "additives": []
+      },
+      {
+        "name": "Crunchy Ball",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Cold", "Vegetarian"],
+        "allergens": [],
+        "additives": []
+      },
+      {
+        "name": "Mochi Mochi",
+        "price": "6.50",
+        "info": "",
+        "filter": ["Alcohol free", "Cold", "Vegetarian"],
+        "allergens": ["(f) Sesam", "(i) Lupine", "(m) Sojabohnen"],
+        "additives": ["(8) Geschmacksverstärker"]
+      }
+    ]
+  }
+]

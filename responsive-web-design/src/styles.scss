@@ -1,0 +1,102 @@
+@import "shared/variables";
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+}
+
+button {
+  padding: 0;
+  border: transparent;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: $fontSizeXXXL;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: $fontSizeXL;
+  font-weight: normal;
+  line-height: 38px;
+}
+
+.background {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-button {
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  border-radius: 50rem;
+  color: #fff;
+  cursor: pointer;
+}
+.icon-button:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.section-container {
+  height: 100vh;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  .section-container {
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}

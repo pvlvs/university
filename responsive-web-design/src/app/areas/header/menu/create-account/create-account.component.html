@@ -1,0 +1,79 @@
+<app-headline
+  title="Create account"
+  (changeComponent)="changeComponent.emit('list')"
+></app-headline>
+
+<section class="socials">
+  <app-google-btn></app-google-btn>
+  <app-facebook-btn></app-facebook-btn>
+  <div class="or">or</div>
+</section>
+
+<form [formGroup]="form">
+  <app-input
+    label="Name"
+    placeholder="Name"
+    type="text"
+    error="Please fill out at least a first name or a surname"
+    [control]="nameControl"
+  ></app-input>
+
+  <app-input
+    label="Email address"
+    placeholder="Email address"
+    type="email"
+    error="Please fill out your username (your email address)"
+    [control]="mailControl"
+  ></app-input>
+
+  <app-input
+    label="Password"
+    placeholder="Password"
+    type="password"
+    error="Please enter your new password."
+    [isPassword]="true"
+    [checksPasswordStrength]="true"
+    [control]="pwControl"
+  ></app-input>
+
+  <app-input
+    label="Confirm password"
+    placeholder="Confirm password"
+    type="password"
+    error="Please confirm your new password."
+    [isPassword]="true"
+    [control]="pwConfirmControl"
+  ></app-input>
+
+  <button (click)="checked = !checked" class="checkbox">
+    <svg viewBox="0 0 16 16" width="24px" height="24px" *ngIf="!checked">
+      <path
+        d="M12.375 13.906h-8.75c-.84 0-1.531-.691-1.531-1.531v-8.75c0-.84.691-1.531 1.531-1.531h8.75c.84 0 1.531.691 1.531 1.531v8.75c0 .84-.691 1.531-1.531 1.531zm-8.75-10.5a.217.217 0 00-.219.219v8.75c0 .123.096.219.219.219h8.75a.217.217 0 00.219-.219v-8.75a.217.217 0 00-.219-.219h-8.75z"
+        fill="#3c4c4f"
+      ></path>
+    </svg>
+
+    <svg viewBox="0 0 16 16" width="24px" height="24px" *ngIf="checked">
+      <path
+        d="M12.375 2.094h-8.75c-.84 0-1.531.691-1.531 1.531v8.75c0 .84.691 1.531 1.531 1.531h8.75c.84 0 1.531-.691 1.531-1.531v-8.75c0-.84-.691-1.531-1.531-1.531zm.219 10.281a.217.217 0 01-.219.219h-8.75a.217.217 0 01-.219-.219v-8.75c0-.123.096-.219.219-.219h8.75c.123 0 .219.096.219.219v8.75zm-2.45-6.799l.962.893-3.36 3.622a.979.979 0 01-.726.315c-.271 0-.534-.114-.726-.315L4.955 8.586l.98-.875L7.02 8.936l3.124-3.369v.01z"
+        fill="#000"
+      ></path>
+    </svg>
+    <span
+      >Yes, I want to receive discounts, loyalty offers, and other
+      updates.</span
+    >
+  </button>
+
+  <button
+    class="sign-in"
+    [disabled]="form.invalid"
+    [class.disabled]="form.invalid"
+  >
+    Create Account
+  </button>
+
+  <button class="create-account" (click)="changeComponent.emit('sign-in')">
+    <span>I already have an account</span>
+  </button>
+</form>

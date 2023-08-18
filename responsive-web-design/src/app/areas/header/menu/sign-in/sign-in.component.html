@@ -1,0 +1,51 @@
+<app-headline
+  title="Sign in"
+  (changeComponent)="changeComponent.emit('list')"
+></app-headline>
+
+<section class="socials">
+  <app-google-btn></app-google-btn>
+  <app-facebook-btn></app-facebook-btn>
+  <div class="or">or</div>
+</section>
+
+<form [formGroup]="form">
+  <app-input
+    label="Email address"
+    placeholder="Email address"
+    type="email"
+    error="Please fill out your username (your email address)"
+    [control]="mailControl"
+  ></app-input>
+
+  <app-input
+    label="Password"
+    placeholder="Password"
+    type="password"
+    error="Please fill out your password"
+    [isPassword]="true"
+    [control]="pwControl"
+  ></app-input>
+
+  <button
+    type="button"
+    class="forgot-password"
+    (click)="changeComponent.emit('password')"
+  >
+    <span>Forgot password?</span>
+  </button>
+
+  <button
+    class="sign-in"
+    [disabled]="form.invalid"
+    [class.disabled]="form.invalid"
+  >
+    Sign in
+  </button>
+  <button
+    class="create-account"
+    (click)="changeComponent.emit('create-account')"
+  >
+    <span>Create Account</span>
+  </button>
+</form>
