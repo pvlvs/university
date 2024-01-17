@@ -1,0 +1,190 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/inter-v13-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rufina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rufina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rufina-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --shadow: 0px 0px 4px 1px #00000080;
+    --highlight: #1865c8;
+}
+
+body {
+    max-width: 54rem;
+    margin: auto;
+    font-family: Inter, sans-serif;
+    font-size: 1.1rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    gap: 2rem;
+}
+
+nav {
+    position: sticky;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: var(--shadow);
+    border-radius: 0.25rem;
+}
+
+nav a {
+    color: inherit;
+    transition: all 0.125s ease;
+}
+
+nav a:not(.create-btn):hover {
+    color: var(--highlight);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+article section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow);
+    transition: all 0.5s ease;
+    border-radius: 0.25rem;
+}
+
+article section:first-child {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+article section:last-child {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+article section:hover {
+    box-shadow: 0px 0px 10px 1px #000;
+}
+
+article section p {
+    margin-top: 0.5rem;
+}
+
+h1 {
+    box-sizing: border-box;
+    height: calc(3rem * 2 + 2rem);
+    padding: 3rem 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Rufina, serif;
+}
+
+h3 {
+    margin: 0;
+}
+
+button, .create-btn {
+    min-width: 10rem;
+    padding: 0.5rem 1rem;
+    font-size: inherit;
+    border:none;
+    border-radius: 0.25rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: var(--shadow);
+    border-radius: 0.25rem;
+}
+
+form section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input[type="datetime-local"] {
+    width: fit-content;
+}
+
+input[readonly] {
+    cursor: default;
+    outline: none;
+}
+
+form button {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.gray {
+    color: #00000080;
+}
+
+.create-btn {
+    text-decoration: none;
+}
+nav .create-btn:hover {
+    background-color: var(--highlight);
+}
+
+.author-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.comment-meta {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+#text-counter {
+    margin-left: auto;
+}

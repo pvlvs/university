@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head th:fragment="head">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>SWE 2</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header th:fragment="header(title)">
+        <h1 th:text="${title}">Überschrift</h1>
+        <span></span>
+    </header>
+
+    <aside th:fragment="nav">
+        <nav>
+            <a class="create-btn" href="/messageForm.html">Neue Nachricht</a>
+            <a href="/messages.html">Nachrichten</a>
+            <a sec:authorize="isAnonymous()" href="/login.html">Login</a>
+            <a sec:authorize="isAnonymous()" href="/register.html">Registrierung</a>
+            <a sec:authorize="isAuthenticated()" href="/security/spring_security_logout">logout</a>
+        </nav>
+    </aside>
+</body>
+
+</html>

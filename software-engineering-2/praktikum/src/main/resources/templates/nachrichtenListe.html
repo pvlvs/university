@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head th:replace="fragments :: head">
+    Head
+</head>
+
+<body>
+
+    <header th:replace="fragments :: header('Nachrichten')">
+        Header
+    </header>
+
+    <main>
+        <aside th:replace="fragments :: aside">
+            Aside
+        </aside>
+
+        <article>
+            <section th:each="message : ${messages}">
+                <span class="author-meta">
+                    <h3 th:text="${message.user.fullname}">Jennifer</h3>
+                    <span th:text="${'@' + message.user.username}" class="gray">@placeholder_user</span>
+                </span>
+
+                <p th:text="${message.text}">Placeholder text</p>
+
+                <span class="comment-meta">
+                    <span th:text="${message.location}" class="gray">Placeholder Location</span>
+                    <time th:text="${message.date}" datetime="${message.date}">01.01.2001 - 00:00</time>
+                </span>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>

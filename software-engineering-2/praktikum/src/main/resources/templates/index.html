@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>SWE 2</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <header th:replace="fragments :: header('Nachrichten')">
+        Header
+    </header>
+
+    <main>
+        <aside th:replace="fragments :: aside">
+            Aside
+        </aside>
+
+        <article>
+            <section>
+                <span class="author-meta">
+                    <h3>Jennifer</h3>
+                    <span class="gray">@jenny_f</span>
+                </span>
+
+                <p>Erster Tag der Herbstferien!</p>
+
+                <span class="comment-meta">
+                    <span class="gray">Furtwangen</span>
+                    <time>OCT 30, 2023 - 11:26</time>
+                </span>
+            </section>
+            <section>
+                <span class="author-meta">
+                    <h3>Günther</h3>
+                    <span class="gray">@g_der_g</span>
+                </span>
+
+                <p>Ist CSS wirklich nötig? Den Text kann man doch auch ohne lesen!</p>
+
+                <span class="comment-meta">
+                    <span class="gray">Villingen-Schwenningen</span>
+                    <time>OCT 30, 2023 - 10:48</time>
+                </span>
+            </section>
+            <section>
+                <span class="author-meta">
+                    <h3>Mark</h3>
+                    <span class="gray">@zuckerberg</span>
+                </span>
+
+                <p>Mahlzeit!</p>
+
+                <span class="comment-meta">
+                    <span class="gray">Los Angeles</span>
+                    <time>OCT 29, 2023 - 12:01</time>
+                </span>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>

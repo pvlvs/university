@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>SWE 2</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stevenbenner.github.io/jquery-powertip/styles/jquery.powertip.css">
+
+    <script src="https://code.jquery.com/jquery-latest.js"> </script>
+    <script src="https://stevenbenner.github.io/jquery-powertip/scripts/jquery.powertip.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header th:replace="fragments :: header('Neue Nachricht')">
+        Header
+    </header>
+
+    <main>
+        <aside th:replace="fragments :: aside">
+            Aside
+        </aside>
+
+
+        <form action="/createMessage.html" method="POST">
+            <section>
+                <label for="date">Date</label>
+                <input id="date" type="datetime-local" name="date"
+                    title="The time and date your message should be posted.">
+            </section>
+
+            <section>
+                <label for="location">Location</label>
+                <input id="location" type="text" name="location" readonly title="Your current location.">
+            </section>
+
+            <section>
+                <label for="text">What's on your mind?</label>
+                <textarea id="text" name="messageText" title="The message you want to share."></textarea>
+                <span id="text-counter">0</span>
+            </section>
+
+            <button type="submit">Post</button>
+        </form>
+    </main>
+</body>
